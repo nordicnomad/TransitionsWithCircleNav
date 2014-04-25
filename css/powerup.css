@@ -49,3 +49,41 @@ h1 span {
 	margin-bottom: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.sideImage {
+	border: 5px solid #fff;
+	margin: 0 20px 20px 20px;
+	width: 90%;
+}
+
+.hoursTitle {
+	margin: 0;
+	margin-top: 30px;
+	padding-left: 0;
+}
+
+.col-md-4 .hoursTitle:first-child {
+	margin-top: 10px;
+}
+
+.labelContact {
+	text-align: left;
+	font-family: 'Quintessential', cursive;
+	margin-top: 10px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+
+.infoContact {
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 5px;
+}
+
+.contentImage {
+	width: 90%;
+	max-width: 100%;
+	border: 5px solid #fff;
+	margin: 0 20px 20px 20px;
+}

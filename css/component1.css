@@ -110,10 +110,15 @@ body {
 }
 
 .cn-button i {
+  margin-top: 12px;
+}
+
+.cn-button.secondButton i {
   margin-top: 11px;
 }
 
 .cn-button.secondButton {
+
   left: 10em;
   z-index: 9;
 }

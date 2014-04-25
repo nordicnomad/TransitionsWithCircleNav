@@ -3,7 +3,7 @@ var PageTransitions = (function() {
 	var $main = $( '#pt-main' ),
 		$pages = $main.children( 'div.pt-page' ),
 		$iterate = $( 'a' ),
-		animcursor = 1,
+		animcursor = 17,
 		pagesCount = $pages.length,
 		current = 0,
 		isAnimating = false,
@@ -41,8 +41,8 @@ var PageTransitions = (function() {
 			if( isAnimating ) {
 				return false;
 			}
-			if( animcursor > 67 ) {
-				animcursor = 1;
+			if( animcursor > 20 ) {
+				animcursor = 17;
 			}
 
 			clickID = $(this).attr('id');
